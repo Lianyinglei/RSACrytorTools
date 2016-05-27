@@ -15,6 +15,10 @@
 		C5EC1D151CF7E0AB0018B21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EC1D131CF7E0AB0018B21A /* LaunchScreen.storyboard */; };
 		C5EC1D201CF7E0AB0018B21A /* RSACrytorToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D1F1CF7E0AB0018B21A /* RSACrytorToolsTests.m */; };
 		C5EC1D2B1CF7E0AB0018B21A /* RSACrytorToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D2A1CF7E0AB0018B21A /* RSACrytorToolsUITests.m */; };
+		C5EC1D431CF7E2190018B21A /* CryptorTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D3A1CF7E2190018B21A /* CryptorTools.m */; };
+		C5EC1D491CF7E3AA0018B21A /* SecKey.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D481CF7E3AA0018B21A /* SecKey.m */; };
+		C5EC1D4C1CF7E53C0018B21A /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D4B1CF7E53C0018B21A /* Base64.m */; };
+		C5EC1D4F1CF7E59D0018B21A /* Base64Data.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D4E1CF7E59D0018B21A /* Base64Data.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		C5EC1D261CF7E0AB0018B21A /* RSACrytorToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSACrytorToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5EC1D2A1CF7E0AB0018B21A /* RSACrytorToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSACrytorToolsUITests.m; sourceTree = "<group>"; };
 		C5EC1D2C1CF7E0AB0018B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EC1D391CF7E2190018B21A /* CryptorTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CryptorTools.h; sourceTree = "<group>"; };
+		C5EC1D3A1CF7E2190018B21A /* CryptorTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CryptorTools.m; sourceTree = "<group>"; };
+		C5EC1D471CF7E3AA0018B21A /* SecKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecKey.h; sourceTree = "<group>"; };
+		C5EC1D481CF7E3AA0018B21A /* SecKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecKey.m; sourceTree = "<group>"; };
+		C5EC1D4A1CF7E53C0018B21A /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		C5EC1D4B1CF7E53C0018B21A /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		C5EC1D4D1CF7E59D0018B21A /* Base64Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Data.h; sourceTree = "<group>"; };
+		C5EC1D4E1CF7E59D0018B21A /* Base64Data.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Data.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,7 @@
 		C5EC1D041CF7E0AB0018B21A /* RSACrytorTools */ = {
 			isa = PBXGroup;
 			children = (
+				C5EC1D381CF7E20F0018B21A /* RSA */,
 				C5EC1D081CF7E0AB0018B21A /* AppDelegate.h */,
 				C5EC1D091CF7E0AB0018B21A /* AppDelegate.m */,
 				C5EC1D0B1CF7E0AB0018B21A /* ViewController.h */,
@@ -138,6 +151,37 @@
 				C5EC1D2C1CF7E0AB0018B21A /* Info.plist */,
 			);
 			path = RSACrytorToolsUITests;
+			sourceTree = "<group>";
+		};
+		C5EC1D381CF7E20F0018B21A /* RSA */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D391CF7E2190018B21A /* CryptorTools.h */,
+				C5EC1D3A1CF7E2190018B21A /* CryptorTools.m */,
+				C5EC1D3B1CF7E2190018B21A /* GTMBase64 */,
+				C5EC1D3C1CF7E2190018B21A /* SecKeyWrapper */,
+			);
+			path = RSA;
+			sourceTree = "<group>";
+		};
+		C5EC1D3B1CF7E2190018B21A /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		C5EC1D3C1CF7E2190018B21A /* SecKeyWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D4A1CF7E53C0018B21A /* Base64.h */,
+				C5EC1D4B1CF7E53C0018B21A /* Base64.m */,
+				C5EC1D4D1CF7E59D0018B21A /* Base64Data.h */,
+				C5EC1D4E1CF7E59D0018B21A /* Base64Data.m */,
+				C5EC1D471CF7E3AA0018B21A /* SecKey.h */,
+				C5EC1D481CF7E3AA0018B21A /* SecKey.m */,
+			);
+			path = SecKeyWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5EC1D4C1CF7E53C0018B21A /* Base64.m in Sources */,
 				C5EC1D0D1CF7E0AB0018B21A /* ViewController.m in Sources */,
+				C5EC1D431CF7E2190018B21A /* CryptorTools.m in Sources */,
+				C5EC1D4F1CF7E59D0018B21A /* Base64Data.m in Sources */,
 				C5EC1D0A1CF7E0AB0018B21A /* AppDelegate.m in Sources */,
 				C5EC1D071CF7E0AB0018B21A /* main.m in Sources */,
+				C5EC1D491CF7E3AA0018B21A /* SecKey.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
