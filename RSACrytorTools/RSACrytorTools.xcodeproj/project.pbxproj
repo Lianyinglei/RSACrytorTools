@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5EC1D071CF7E0AB0018B21A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D061CF7E0AB0018B21A /* main.m */; };
+		C5EC1D0A1CF7E0AB0018B21A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D091CF7E0AB0018B21A /* AppDelegate.m */; };
+		C5EC1D0D1CF7E0AB0018B21A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D0C1CF7E0AB0018B21A /* ViewController.m */; };
+		C5EC1D101CF7E0AB0018B21A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EC1D0E1CF7E0AB0018B21A /* Main.storyboard */; };
+		C5EC1D121CF7E0AB0018B21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5EC1D111CF7E0AB0018B21A /* Assets.xcassets */; };
+		C5EC1D151CF7E0AB0018B21A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5EC1D131CF7E0AB0018B21A /* LaunchScreen.storyboard */; };
+		C5EC1D201CF7E0AB0018B21A /* RSACrytorToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D1F1CF7E0AB0018B21A /* RSACrytorToolsTests.m */; };
+		C5EC1D2B1CF7E0AB0018B21A /* RSACrytorToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C5EC1D2A1CF7E0AB0018B21A /* RSACrytorToolsUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5EC1D1C1CF7E0AB0018B21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5EC1CFA1CF7E0AB0018B21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5EC1D011CF7E0AB0018B21A;
+			remoteInfo = RSACrytorTools;
+		};
+		C5EC1D271CF7E0AB0018B21A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5EC1CFA1CF7E0AB0018B21A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5EC1D011CF7E0AB0018B21A;
+			remoteInfo = RSACrytorTools;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5EC1D021CF7E0AB0018B21A /* RSACrytorTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSACrytorTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EC1D061CF7E0AB0018B21A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5EC1D081CF7E0AB0018B21A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5EC1D091CF7E0AB0018B21A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C5EC1D0B1CF7E0AB0018B21A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C5EC1D0C1CF7E0AB0018B21A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C5EC1D0F1CF7E0AB0018B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5EC1D111CF7E0AB0018B21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5EC1D141CF7E0AB0018B21A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5EC1D161CF7E0AB0018B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EC1D1B1CF7E0AB0018B21A /* RSACrytorToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSACrytorToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EC1D1F1CF7E0AB0018B21A /* RSACrytorToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSACrytorToolsTests.m; sourceTree = "<group>"; };
+		C5EC1D211CF7E0AB0018B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5EC1D261CF7E0AB0018B21A /* RSACrytorToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSACrytorToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5EC1D2A1CF7E0AB0018B21A /* RSACrytorToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSACrytorToolsUITests.m; sourceTree = "<group>"; };
+		C5EC1D2C1CF7E0AB0018B21A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5EC1CFF1CF7E0AB0018B21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D181CF7E0AB0018B21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D231CF7E0AB0018B21A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5EC1CF91CF7E0AB0018B21A = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D041CF7E0AB0018B21A /* RSACrytorTools */,
+				C5EC1D1E1CF7E0AB0018B21A /* RSACrytorToolsTests */,
+				C5EC1D291CF7E0AB0018B21A /* RSACrytorToolsUITests */,
+				C5EC1D031CF7E0AB0018B21A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5EC1D031CF7E0AB0018B21A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D021CF7E0AB0018B21A /* RSACrytorTools.app */,
+				C5EC1D1B1CF7E0AB0018B21A /* RSACrytorToolsTests.xctest */,
+				C5EC1D261CF7E0AB0018B21A /* RSACrytorToolsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5EC1D041CF7E0AB0018B21A /* RSACrytorTools */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D081CF7E0AB0018B21A /* AppDelegate.h */,
+				C5EC1D091CF7E0AB0018B21A /* AppDelegate.m */,
+				C5EC1D0B1CF7E0AB0018B21A /* ViewController.h */,
+				C5EC1D0C1CF7E0AB0018B21A /* ViewController.m */,
+				C5EC1D0E1CF7E0AB0018B21A /* Main.storyboard */,
+				C5EC1D111CF7E0AB0018B21A /* Assets.xcassets */,
+				C5EC1D131CF7E0AB0018B21A /* LaunchScreen.storyboard */,
+				C5EC1D161CF7E0AB0018B21A /* Info.plist */,
+				C5EC1D051CF7E0AB0018B21A /* Supporting Files */,
+			);
+			path = RSACrytorTools;
+			sourceTree = "<group>";
+		};
+		C5EC1D051CF7E0AB0018B21A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D061CF7E0AB0018B21A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5EC1D1E1CF7E0AB0018B21A /* RSACrytorToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D1F1CF7E0AB0018B21A /* RSACrytorToolsTests.m */,
+				C5EC1D211CF7E0AB0018B21A /* Info.plist */,
+			);
+			path = RSACrytorToolsTests;
+			sourceTree = "<group>";
+		};
+		C5EC1D291CF7E0AB0018B21A /* RSACrytorToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5EC1D2A1CF7E0AB0018B21A /* RSACrytorToolsUITests.m */,
+				C5EC1D2C1CF7E0AB0018B21A /* Info.plist */,
+			);
+			path = RSACrytorToolsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5EC1D011CF7E0AB0018B21A /* RSACrytorTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EC1D2F1CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorTools" */;
+			buildPhases = (
+				C5EC1CFE1CF7E0AB0018B21A /* Sources */,
+				C5EC1CFF1CF7E0AB0018B21A /* Frameworks */,
+				C5EC1D001CF7E0AB0018B21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSACrytorTools;
+			productName = RSACrytorTools;
+			productReference = C5EC1D021CF7E0AB0018B21A /* RSACrytorTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5EC1D1A1CF7E0AB0018B21A /* RSACrytorToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EC1D321CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorToolsTests" */;
+			buildPhases = (
+				C5EC1D171CF7E0AB0018B21A /* Sources */,
+				C5EC1D181CF7E0AB0018B21A /* Frameworks */,
+				C5EC1D191CF7E0AB0018B21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5EC1D1D1CF7E0AB0018B21A /* PBXTargetDependency */,
+			);
+			name = RSACrytorToolsTests;
+			productName = RSACrytorToolsTests;
+			productReference = C5EC1D1B1CF7E0AB0018B21A /* RSACrytorToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5EC1D251CF7E0AB0018B21A /* RSACrytorToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5EC1D351CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorToolsUITests" */;
+			buildPhases = (
+				C5EC1D221CF7E0AB0018B21A /* Sources */,
+				C5EC1D231CF7E0AB0018B21A /* Frameworks */,
+				C5EC1D241CF7E0AB0018B21A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5EC1D281CF7E0AB0018B21A /* PBXTargetDependency */,
+			);
+			name = RSACrytorToolsUITests;
+			productName = RSACrytorToolsUITests;
+			productReference = C5EC1D261CF7E0AB0018B21A /* RSACrytorToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5EC1CFA1CF7E0AB0018B21A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "廉英雷";
+				TargetAttributes = {
+					C5EC1D011CF7E0AB0018B21A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					C5EC1D1A1CF7E0AB0018B21A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5EC1D011CF7E0AB0018B21A;
+					};
+					C5EC1D251CF7E0AB0018B21A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = C5EC1D011CF7E0AB0018B21A;
+					};
+				};
+			};
+			buildConfigurationList = C5EC1CFD1CF7E0AB0018B21A /* Build configuration list for PBXProject "RSACrytorTools" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5EC1CF91CF7E0AB0018B21A;
+			productRefGroup = C5EC1D031CF7E0AB0018B21A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5EC1D011CF7E0AB0018B21A /* RSACrytorTools */,
+				C5EC1D1A1CF7E0AB0018B21A /* RSACrytorToolsTests */,
+				C5EC1D251CF7E0AB0018B21A /* RSACrytorToolsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5EC1D001CF7E0AB0018B21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EC1D151CF7E0AB0018B21A /* LaunchScreen.storyboard in Resources */,
+				C5EC1D121CF7E0AB0018B21A /* Assets.xcassets in Resources */,
+				C5EC1D101CF7E0AB0018B21A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D191CF7E0AB0018B21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D241CF7E0AB0018B21A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5EC1CFE1CF7E0AB0018B21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EC1D0D1CF7E0AB0018B21A /* ViewController.m in Sources */,
+				C5EC1D0A1CF7E0AB0018B21A /* AppDelegate.m in Sources */,
+				C5EC1D071CF7E0AB0018B21A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D171CF7E0AB0018B21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EC1D201CF7E0AB0018B21A /* RSACrytorToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EC1D221CF7E0AB0018B21A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5EC1D2B1CF7E0AB0018B21A /* RSACrytorToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5EC1D1D1CF7E0AB0018B21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5EC1D011CF7E0AB0018B21A /* RSACrytorTools */;
+			targetProxy = C5EC1D1C1CF7E0AB0018B21A /* PBXContainerItemProxy */;
+		};
+		C5EC1D281CF7E0AB0018B21A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5EC1D011CF7E0AB0018B21A /* RSACrytorTools */;
+			targetProxy = C5EC1D271CF7E0AB0018B21A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5EC1D0E1CF7E0AB0018B21A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EC1D0F1CF7E0AB0018B21A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5EC1D131CF7E0AB0018B21A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5EC1D141CF7E0AB0018B21A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5EC1D2D1CF7E0AB0018B21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5EC1D2E1CF7E0AB0018B21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5EC1D301CF7E0AB0018B21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSACrytorTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C5EC1D311CF7E0AB0018B21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RSACrytorTools/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C5EC1D331CF7E0AB0018B21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSACrytorToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSACrytorTools.app/RSACrytorTools";
+			};
+			name = Debug;
+		};
+		C5EC1D341CF7E0AB0018B21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RSACrytorToolsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RSACrytorTools.app/RSACrytorTools";
+			};
+			name = Release;
+		};
+		C5EC1D361CF7E0AB0018B21A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSACrytorToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSACrytorTools;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C5EC1D371CF7E0AB0018B21A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RSACrytorToolsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yoxnet.RSACrytorToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RSACrytorTools;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5EC1CFD1CF7E0AB0018B21A /* Build configuration list for PBXProject "RSACrytorTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EC1D2D1CF7E0AB0018B21A /* Debug */,
+				C5EC1D2E1CF7E0AB0018B21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5EC1D2F1CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EC1D301CF7E0AB0018B21A /* Debug */,
+				C5EC1D311CF7E0AB0018B21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5EC1D321CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EC1D331CF7E0AB0018B21A /* Debug */,
+				C5EC1D341CF7E0AB0018B21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C5EC1D351CF7E0AB0018B21A /* Build configuration list for PBXNativeTarget "RSACrytorToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5EC1D361CF7E0AB0018B21A /* Debug */,
+				C5EC1D371CF7E0AB0018B21A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5EC1CFA1CF7E0AB0018B21A /* Project object */;
+}
